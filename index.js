@@ -35,3 +35,12 @@ const getThreeSources = async () => {
 
 // run the function
 getThreeSources();
+
+
+// Assume this your project
+// Assume that I have the database
+// Assume array is ready to GO
+app.get('/favorite', (req, res) => {
+    // db.favorite.findAll()
+    res.render('favorites', { favoritesArray });
+});
