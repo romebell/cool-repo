@@ -1,0 +1,23 @@
+{
+  "name": "cool-repo",
+  "version": "1.0.0",
+  "description": "Cool App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romebell/cool-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romebell/cool-repo/issues"
+  },
+  "homepage": "https://github.com/romebell/cool-repo#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
