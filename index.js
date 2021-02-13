@@ -42,5 +42,5 @@ getThreeSources();
 // Assume array is ready to GO
 app.get('/favorite', (req, res) => {
     // db.favorite.findAll()
-    res.render('favorites', { favoritesArray });
+    res.render('favorites', { favoritesArray }); // go to favorites.ejs page
 });
